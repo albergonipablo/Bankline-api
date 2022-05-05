@@ -16,9 +16,7 @@ public class CorrentistaService {
 		Conta conta = new Conta();
 		conta.setSaldo(0.0);
 		conta.setNumero(new Date().getTime());
-		
 		correntista.setConta(null);
 		 
 	}
-
 }
